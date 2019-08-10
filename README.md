@@ -1,7 +1,8 @@
-# website
+# My Website
 ## A Higher State
 
 
+The home.html page in the final folder is the homepage for the website
 ### Purpose:
 	The purpose of my website is that it is a showcase of my hobby i.e. Meditation and since I've been researching a lot on this topic, I want to share the facts, benefits, ways to practice it and resources with the people who share the same hobby and want to progress in this field. The site will also provide information on the topics which most of the websites don't provide as much.
 
