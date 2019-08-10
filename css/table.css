@@ -1,0 +1,70 @@
+/*stylesheet for table layout*/
+
+body
+{
+	background-color:#adbab5;
+	text-align:center;
+	font-family:"Arial",sans-serif;
+}
+table
+{
+	caption-side:bottom;
+	width:100%;
+	border:2px solid black;
+	border-collapse:collapse;
+	margin-right:30px ;
+	color:#006d4e;
+}
+/*Requirement 9*/
+th,td
+{
+	padding:20px;
+	border:2px solid black;
+	
+}
+th
+{
+	background-color:#79838f;
+}
+/*Requirement 11*/
+.Class
+{
+	background-color:#002d30;
+}
+.one
+{
+	background-color:#4a808f;
+}
+.nap
+{
+	background-color:#abb593;
+}
+/*Requirement 8*/
+ol
+{
+	list-style-type:lower-roman;
+}
+.ready
+{
+	background-color:#6f947a;
+}
+.assign
+{
+	background-color:#85afc7;
+}
+.exercise
+{
+	background-color:#9fb396;
+}
+
+@font-face {
+font-family: 'southern_aire';
+src: url('../font/southern_aire.eot'); /* IE9 Compat Modes */
+src: url('../font/southern_aire.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../font/southern_aire.woff') format('woff'), /* Modern Browsers */
+url('../font/southern_aire.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../font/southern_aire.svg#svgFontName') format('svg'); /* Legacy iOS */}
+h1
+{
+	font-family:'southern_aire';
+}

@@ -1,0 +1,58 @@
+<!--
+	N241 Final Project
+	By Shahbegh Singh Kalra
+	date:04/27/2017
+	html file
+-->
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Contact</title>
+	<link rel="stylesheet" href="../css/final.css" type="text/css">
+</head>
+<body>
+	<!--Navigation bar-->
+	<div id="menu">
+		<a href="home.html" id="home" >HOME</a>
+		<div id="spacer1" class="spacer"></div>
+		<a href="science.html" id="science">SCIENCE OF MEDITATION</a>
+		<div id="spacer2" class="spacer"></div>
+		<a href="benefits.html" id="benefits">BENEFITS</a>
+		<div id="spacer3" class="spacer"></div>
+		<a href="guided.html" id="guided1">GUIDED MEDITATION</a>
+		<div id="spacer4" class="spacer"></div>
+		<a href="how.html" id="how" >HOW TO MEDITATE</a>
+		<div id="spacer5" class="spacer"></div>
+		<a href="contact.html" id="contact">CONTACT</a>
+	</div>
+	<!--Page Heading-->
+	<h2 class="contact">Contact</h2>
+	<!--form example-->
+	<form id="myForm">
+	<fieldset class="contact">
+			
+			<legend>Personal information</legend>
+			
+			<label>Name:</label><input type="text" name="name" value=""><br>
+			<label>Number:</label> <input type="number" name="contact1" value=""><br>
+			<label>Email:</label> <input type="email" name="contact2" value=""><br>
+			<br>
+			<label>Gender:</label> <br>
+			<div class="gender">
+			<label>male</label><input type="radio" value="male" name="gender"><br>
+			<label>female</label><input type="radio" value="female" name="gender"><br>
+			</div>
+			<label>Send Message :</label><br>
+			<textarea name="message" placeholder="Please type the message you want to submit"></textarea><br>
+			<input type="submit" name="submit" value="Submit"><br>
+			<input type="reset" name="reset" value="Reset">
+	</fieldset>
+	</form>
+	<!--footer specifies the name of creator and the date-->
+	<footer>
+		<p>Created by Shahbegh Singh Kalra</p>
+		<time datetime="2017-04-25">04/25/2017</time>
+	</footer>
+</body>
+</html>

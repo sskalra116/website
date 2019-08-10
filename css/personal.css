@@ -1,0 +1,112 @@
+/*Own personal stylesheet*/
+body
+{
+	background:#e5e5ff;
+}
+/*Requirement 1: style 5 unique classes*/
+.one
+{
+	color:red;
+}
+.two
+{
+	font-family:"Times new Roman";
+}
+.three
+{
+	font-style:italic;
+}
+.four
+{
+	font-size:20px;
+}
+.five
+{
+	font-family:verdana;
+}
+/*Requirement 2 :style the id */
+.dark {
+   color: yellow;
+}
+.dark {
+   color: red;
+}
+
+#aa
+{
+	color:#ff0000;
+}
+#bb
+{
+	margin:20px 30px;
+}
+#cc
+{
+	padding:10px;
+}
+/*Requirement 3: style the header*/
+h1,h2,h3,h4,h5,h6
+{
+	font-style:oblique;
+	border:10px solid pink;
+}
+/*Requirement 4: style a tags for hover, normal and visited*/
+a
+{
+	color:green;
+}
+a:hover
+{
+	color:red;
+}
+a:visited
+{
+	color:purple;
+}
+/*Requirement 5 and 6: styling header and footer */
+header,footer
+{
+	text-align:center;
+}
+/*Requirement 7: style button element*/
+button
+{
+	background-color: #4CAF50; 
+    color: white;
+	 box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+/*Requirement 8:Style the div element*/
+div
+{
+	font-size:18px;
+}
+/*Requirement 9: style ul and il elements*/
+ul
+{
+	list-style-type:circle;
+}
+ul li {
+    background: #cce5ff;
+    margin: 5px;
+}
+/*Requirement 10: style ol and li elments*/
+ol
+{
+	list-style-type:upper-roman;
+}
+ol li {
+    background: #cce5ff;
+    padding: 5px;
+    margin-left: 35px;
+}
+/*Requirement 10: style table, th and td*/
+table
+{
+	border:1px solid black;
+	width:100%;
+}
+th td
+{
+	padding:15px;
+	text-align:left;
+}

@@ -1,0 +1,79 @@
+/*
+	CSS Requirement 1:Set the font family of the <body> element.
+	CSS Requirement 2:Set the background color of the <body> element.
+	CSS Requirement 3:Set the text color of the <body> element using a hex code.
+	CSS Requirement 4:Set the font size of the <body> element.
+*/
+body
+{
+	font-family:"Times New Roman", Georgia, Serif;
+	background-color:#808080;
+	color:#4adadd;
+	font-size:20px;
+}
+/*CSS Requirement 5:all unique colors defined below*/
+p.one
+{
+	color:#ffffff;
+}
+p.two
+{
+	color:#0000ff;
+}
+p.three
+{
+	color:#ff0000;
+}
+p.four
+{
+	color:#800080;
+}
+/*CSS Requirement 6:Use an id to style an element with that id.*/
+#live
+{
+	font-family:"Arial";
+}
+/*CSS Requirement 7:Create a CSS rule that applies to more than one element.*/
+h1,h2
+{
+	color:indigo;
+}
+/*CSS Requirement 8:Create a rule that overrides an inherited style.*/
+a.one          				 
+{
+	color:white;
+}
+/*CSS Requirement 9:Create a rule that defines a font size for something besides <body> using something besides pixels*/
+a.fonts
+{
+	font-size:200%;		
+}
+/*CSS Requirement 10:Create a rule using a shortcut to define a bottom border that is 1 pixel thick, black, and solid.*/
+h1
+{
+	border-bottom: 1px solid black;
+}
+/*CSS Requirement 11:Create a rule for font weight, text decoration, or style.*/
+em
+{
+	font-weight:bold;
+	text-decoration:overline;
+}
+/*CSS Requirement 11:Defined a color by name*/
+a.name
+{
+	color:green;		/*defined color by name*/
+}
+
+/*extra credit */
+@font-face {
+font-family: 'southern_aire';
+src: url('../font/southern_aire.eot'); /* IE9 Compat Modes */
+src: url('../font/southern_aire.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+url('../font/southern_aire.woff') format('woff'), /* Modern Browsers */
+url('../font/southern_aire.ttf') format('truetype'), /* Safari, Android, iOS */
+url('../font/southern_aire.svg#svgFontName') format('svg'); /* Legacy iOS */}
+h1
+{
+	font-family:'southern_aire';
+}

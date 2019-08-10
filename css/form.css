@@ -1,0 +1,81 @@
+body
+{
+	background-color:#002d30;
+	font-weight:bold;
+	font-family:"Arial",sans-Serif;
+	color:#ffffff;
+}
+form
+{
+	padding:30px;
+	margin:20px;
+	margin-top:12px;
+}
+textarea
+{
+	margin-top:12px;
+	width:360px;
+	height:150px;
+	line-height:2em;
+}
+select
+{
+	width:200px;
+	padding:5px;
+	line-height:1.5em;
+}
+h1
+{
+	text-align:center;
+}
+input[type=text],[type=number],[type=email],[type=submit],[type=reset],[type=button]
+{
+	border:1px solid black;
+	width:30%;
+	padding:5px;
+	border-radius:5px;
+	margin-top:12px;
+}
+input[type=text],[type=number],[type=email]
+{
+	width:50%;
+	display:grid;
+	background-color:#f2ebf0;	
+}
+/*Arranges the label and the text fields as tale cell*/
+label
+{
+	width:100%;
+	display:table-row;
+	margin-right:10px;
+}
+/*sets the three input types with the same color */
+input[type=button], input[type=submit], input[type=reset] 
+{
+	background-color:#a0333a;
+}
+/*float makes the two column layout*/
+.one
+{
+	width:45%;
+	border-radius:20px;
+	float:left;
+	line-height:1.5em;
+}
+.two
+{
+	width:45%;
+	border-radius:20px;
+	float:right;
+}
+/*clear separates the footer from the floating content*/
+footer
+{
+	clear:both;
+	text-align:center;
+}
+div
+{
+	width:100%;
+	text-align:center;
+}

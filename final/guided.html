@@ -1,0 +1,200 @@
+<!--
+	N241 Final Project
+	By Shahbegh Singh Kalra
+	date:04/27/2017
+	html file
+-->
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Guided Meditation</title>
+	<!--Inline stylesheet-->
+	<style id="embed">
+		body
+		{
+			margin:0px;
+			background-image:url('../images/guided.jpg');
+			text-align:center;
+			font-family:"Arial",sans-Serif;
+			font-size:40px;
+			color:#5e7899;
+			
+		}
+		/*Typography example*/
+		@font-face 
+		{
+			font-family: 'southern_aire';
+			src: url('../font/Amatic-Bold.eot'); /* IE9 Compat Modes */
+			src: url('../font/Amatic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../font/Amatic-Bold.woff') format('woff'), /* Modern Browsers */
+			url('../font/Amatic-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('../font/Amatic-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+		}
+		@font-face 
+		{
+			font-family: 'Amatic-Bold';
+			src: url('../font/Amatic-Bold.eot'); /* IE9 Compat Modes */
+			src: url('../font/Amatic-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+			url('../font/Amatic-Bold.woff') format('woff'), /* Modern Browsers */
+			url('../font/Amatic-Bold.ttf') format('truetype'), /* Safari, Android, iOS */
+			url('../font/Amatic-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+		}
+		h2
+		{
+			text-shadow: -3px 0 #253b5a, 0 3px #253b5a, 3px 0 #253b5a, 0 -3px #253b5a;
+			font-family:'Amatic-Bold';
+			font-size:90px;
+			color:#99d3ff;
+		}
+		#guided ,td
+		{
+			margin:auto;
+			padding:50px;
+		}
+		img
+		{
+			border-radius:10px;
+		}
+		a
+		{
+			text-decoration:none;
+			color:#99d3ff;
+		}
+		#menu a:hover
+		{
+			background-color:#172035;	
+		}
+		footer 
+		{
+			color:black;
+			text-align:center;
+			background-color:#7a838b;
+			display:block;
+			font-size:15px;
+			margin-bottom:0px;
+		}
+		.spacer
+		{
+			height: 10px;
+			display:inline-block;
+		}
+		
+		#menu a
+		{
+			display:inline;
+			background-color:#1e4a75;
+			top:10px;
+			color:#99d3ff;
+			padding: 14px 16px;
+			font-size: 20px;
+			text-decoration:none;
+			margin-left:-21px;
+		}
+		a:link
+		{
+			color:#800000;
+		}
+		a:visited
+		{
+			color:#purple;
+		}
+		/*CSS rollover effect*/
+		a:hover
+		{
+			color:#ffffff;
+		}
+		
+	</style>
+</head>
+<body>
+	<!--Navigation bar-->
+	<div id="menu">
+		<a href="home.html" id="home" >HOME</a>
+		<div id="spacer1" class="spacer"></div>
+		<a href="science.html" id="science">SCIENCE OF MEDITATION</a>
+		<div id="spacer2" class="spacer"></div>
+		<a href="benefits.html" id="benefits">BENEFITS</a>
+		<div id="spacer3" class="spacer"></div>
+		<a href="guided.html" id="guided1">GUIDED MEDITATION</a>
+		<div id="spacer4" class="spacer"></div>
+		<a href="how.html" id="how" >HOW TO MEDITATE</a>
+		<div id="spacer5" class="spacer"></div>
+		<a href="contact.html" id="contact">CONTACT</a>
+	</div>
+	<!--Page Heading-->
+	<h2>Guided Meditation</h2>
+	<p>Here are some guided meditation video links.</p>
+	<!--Table example-->
+	<table id="guided">
+		<tr>
+			<!--hyperlink tag so that clicking the image takes to the video-->
+			<td><a href="https://www.youtube.com/watch?v=2Wf4VRc0ETs" id="roll">
+			<figure><img src="../images/root.PNG" alt="root">
+				<!--figcaption gives caption to the figure-->
+				<figcaption>Root chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+			
+			<td><a href="https://www.youtube.com/watch?v=qr7YXGMbFx0">
+			<!--PNG image-->
+			<figure><img src="../images/sacral.PNG" alt="sacral" id="png">
+				<figcaption>Sacral chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.youtube.com/watch?v=I_-XeD1JWOk">
+			<figure><img src="../images/solar_plexus.PNG" alt="solar_plexus">
+				<figcaption>Solar plexus guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+			
+			<td><a href="https://www.youtube.com/watch?v=yvSmQBZFTno">
+			<figure><img src="../images/heart.PNG" alt="heart">
+				<figcaption>Heart chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.youtube.com/watch?v=BN9DF68FJWI">
+			<figure><img src="../images/throat.PNG" alt="throat">
+				<figcaption>Throat chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+			
+			<td><a href="https://www.youtube.com/watch?v=-RFgES3Xx7I">
+			<figure><img src="../images/third_eye.PNG" alt="third eye">
+				<figcaption>Third eye chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+		</tr>
+		<tr>
+			<td><a href="https://www.youtube.com/watch?v=Y_yII0D5TqE">
+			<figure><img src="../images/crown.PNG" alt="crown">
+				<figcaption>Crown chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+			
+			<td><a href="https://www.youtube.com/watch?v=KbxRecAStGE">
+			<figure><img src="../images/chakra.PNG" alt="chakra">
+				<figcaption>Complete chakra guided meditation</figcaption>
+			</figure>
+			</a>
+			</td>
+		</tr>
+	</table>
+	<!--footer specifies the name of creator and the date-->
+	<footer>
+		<p>Created by Shahbegh Singh Kalra</p>
+		<time datetime="2017-04-25">04/25/2017</time>
+	</footer>
+</body>
+</html>
